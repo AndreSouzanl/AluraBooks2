@@ -78,3 +78,22 @@
     
 
 }
+
+  /*
+    2° section
+  */
+
+.descricao__logo{
+    margin-bottom: 0.7em;
+}
+
+.descricao__titulo1{
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.descricao_img{
+    margin-bottom: 1.0em;
+}
+
