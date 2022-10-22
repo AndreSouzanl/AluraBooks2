@@ -93,6 +93,14 @@
     .opcoes__link{
         text-decoration: none;
         color: var(--preto);
+       
+    }
+
+    .cabecalho__menu-hamburger{
+        display: none;
+    }
+
+   
 
     }
 
@@ -100,7 +108,10 @@
         display: none;
     }
 
-    .cabecalho__menu-hamburger{
+   .opcoes__botao:checked ~.lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes__botao{
         display: none;
     }
-}
